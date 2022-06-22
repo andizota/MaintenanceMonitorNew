@@ -12,8 +12,8 @@ public class MonitorTest {
     MonitorService monitorService;
 
     @BeforeEach
-    public void before(String s){
-        monitorService = new MonitorService(s);
+    public void before(){
+        monitorService = new MonitorService("-");
     }
 
     @Test
